@@ -13,7 +13,6 @@ public class Servlet extends HttpServlet {
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         PrintWriter writer = resp.getWriter();
 
-        writer.println(req.getRequestURI());
-        writer.println(req.getRequestURL());
+        writer.println("Hello World!");
     }
 }
