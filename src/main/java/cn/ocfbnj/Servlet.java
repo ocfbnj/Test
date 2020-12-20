@@ -15,5 +15,7 @@ public class Servlet extends HttpServlet {
 
         writer.println("first line");
         writer.println("second line");
+
+        writer.println("Hello");
     }
 }
